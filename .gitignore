@@ -1,0 +1,8 @@
+target/
+
+# Ignore IDE files
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
