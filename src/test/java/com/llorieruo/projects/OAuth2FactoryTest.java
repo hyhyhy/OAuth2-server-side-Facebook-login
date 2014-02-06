@@ -5,9 +5,9 @@ import junit.framework.TestCase;
 import junit.framework.TestSuite;
 
 /**
- * Unit test for simple OAuth2Login.
+ * Unit test for simple OAuth2Factory.
  */
-public class OAuth2LoginTest
+public class OAuth2FactoryTest
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class OAuth2LoginTest
      *
      * @param testName name of the test case
      */
-    public OAuth2LoginTest(String testName)
+    public OAuth2FactoryTest(String testName)
     {
         super( testName );
     }
@@ -25,7 +25,7 @@ public class OAuth2LoginTest
      */
     public static Test suite()
     {
-        return new TestSuite( OAuth2LoginTest.class );
+        return new TestSuite( OAuth2FactoryTest.class );
     }
 
     /**
