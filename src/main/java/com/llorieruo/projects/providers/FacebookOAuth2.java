@@ -18,7 +18,6 @@ import com.llorieruo.projects.exceptions.TokenValidationException;
 import com.llorieruo.projects.exceptions.UnexpectedResponseException;
 import com.llorieruo.projects.handlers.asyncResponses.FacebookAbstractAsyncApiResponseHandler;
 import com.llorieruo.projects.handlers.asyncResponses.FactoryAsyncResponseHandler;
-import com.llorieruo.projects.parsers.IParser;
 import com.llorieruo.projects.parsers.oauth.FacebookAccessTokenResponseParser;
 import com.ning.http.client.AsyncHttpClient;
 
@@ -33,7 +32,7 @@ public class FacebookOAuth2 extends AbstractOAuth2
 			GRAPH_URL, EXCHANGE_URL, DEBUG_URL, AUTHENTICATION_URL;
 	private GraphAPI	graphAPI;
 	
-	public FacebookOAuth2(String redirectUri, IParser<InputStream, AccessTokenSuccessfulResponse> parser) throws InstantiationException
+	public FacebookOAuth2(String redirectUri) throws InstantiationException
 	{
 		try
 		{
