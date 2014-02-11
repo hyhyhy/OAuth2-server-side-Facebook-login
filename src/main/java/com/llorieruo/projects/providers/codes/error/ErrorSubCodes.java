@@ -2,7 +2,22 @@ package com.llorieruo.projects.providers.codes.error;
 
 public enum ErrorSubCodes
 {
-	APP_NOT_INSTALLED(458), PASSWORD_CHANGED(460), EXPIRED(463), INVALID_ACCESS_TOKEN(467);
+	/**
+	 * Subcode number 458.
+	 */
+	APP_NOT_INSTALLED(458),
+	/**
+	 * Subcode number 460.
+	 */
+	PASSWORD_CHANGED(460),
+	/**
+	 * Subcode number 463.
+	 */
+	EXPIRED(463),
+	/**
+	 * Subcode number 467.
+	 */
+	INVALID_ACCESS_TOKEN(467);
 	
 	private int subCode;
 	

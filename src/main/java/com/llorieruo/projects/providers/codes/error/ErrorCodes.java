@@ -2,7 +2,18 @@ package com.llorieruo.projects.providers.codes.error;
 
 public enum ErrorCodes
 {
-	API_SERVICE(2), API_SESSION(102), OAUTH(190);
+	/**
+	 * Code number 2.
+	 */
+	API_SERVICE(2),
+	/**
+	 * Code number 102.
+	 */
+	API_SESSION(102),
+	/**
+	 * Code number 190.
+	 */
+	OAUTH(190);
 	
 	private int code;
 	
