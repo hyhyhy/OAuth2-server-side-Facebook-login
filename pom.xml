@@ -91,7 +91,7 @@
 	    <repository>
 	        <id>github.repo</id>
 	        <name>GitHub repository for Maven projects</name>
-	        <url>git:releases://git@github.com:LuisLoureiro/mvn-repo.git</url>
+	        <url>git:master://git@github.com:LuisLoureiro/mvn-repo.git</url>
 	  </repository>
 	</distributionManagement>
 </project>
