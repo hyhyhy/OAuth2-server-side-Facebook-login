@@ -3,7 +3,7 @@
 
     <groupId>com.llorieruo.projects</groupId>
     <artifactId>oauth2-login</artifactId>
-    <version>0.2-SNAPSHOT</version>
+    <version>0.1</version>
     <packaging>jar</packaging>
 
     <name>oauth2-login</name>
@@ -84,7 +84,7 @@
     
     <scm>
         <developerConnection>scm:git:[fetch=]https://github.com/LuisLoureiro/OAuth2-server-side-Facebook-login.git[push=]git@github.com:LuisLoureiro/OAuth2-server-side-Facebook-login.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>oauth2-login-0.1</tag>
     </scm>
     
     <distributionManagement>
