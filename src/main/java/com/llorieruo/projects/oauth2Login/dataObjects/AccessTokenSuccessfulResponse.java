@@ -2,7 +2,7 @@ package com.llorieruo.projects.oauth2Login.dataObjects;
 
 /**
  * Represents a successful response when issuing the authorization server for an access token.
- * @see http://tools.ietf.org/html/rfc6749#section-5.1
+ * @see <a href="http://tools.ietf.org/html/rfc6749#section-5.1">RFC 6749 - section 5.1</a>
  */
 public class AccessTokenSuccessfulResponse extends ErrorResponse
 {

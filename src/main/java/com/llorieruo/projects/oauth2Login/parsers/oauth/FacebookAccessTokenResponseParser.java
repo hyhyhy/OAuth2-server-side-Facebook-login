@@ -10,8 +10,8 @@ import com.llorieruo.projects.oauth2Login.parsers.IParser;
 
 /**
  * The Facebook implementation of the access token successful response.
- * @see https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/#confirm
- * @see http://tools.ietf.org/html/rfc6749#section-5.1
+ * @see <a href="https://developers.facebook.com/docs/facebook-login/manually-build-a-login-flow/#confirm">Facebook Login - manually build a login flow</a>
+ * @see <a href="http://tools.ietf.org/html/rfc6749#section-5.1">RFC 6749 - section 5.1</a>
  */
 public class FacebookAccessTokenResponseParser implements IParser<InputStream, AccessTokenSuccessfulResponse>
 {

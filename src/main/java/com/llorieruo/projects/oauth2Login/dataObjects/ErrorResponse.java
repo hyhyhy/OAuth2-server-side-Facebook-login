@@ -2,8 +2,8 @@ package com.llorieruo.projects.oauth2Login.dataObjects;
 
 /**
  * Represents a generic error response received from the authorization server or the resource server.
- * @see http://tools.ietf.org/html/rfc6749#section-5.2
- * @see http://tools.ietf.org/html/rfc6749#section-7.2
+ * @see <a href="http://tools.ietf.org/html/rfc6749#section-5.1">RFC 6749 - section 5.2</a>
+ * @see <a href="http://tools.ietf.org/html/rfc6749#section-5.1">RFC 6749 - section 7.2</a>
  */
 public class ErrorResponse
 {
