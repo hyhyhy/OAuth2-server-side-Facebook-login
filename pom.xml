@@ -11,7 +11,6 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <internal.repo.path>file://${HOME}/Documents/Development/Java/projects/mvn-repo/</internal.repo.path>
     </properties>
 
     <dependencies>
@@ -34,6 +33,13 @@
             <scope>compile</scope>
         </dependency>
     </dependencies>
+    
+    <pluginRepositories>
+	    <pluginRepository>
+	       <id>synergian-repo</id>
+	       <url>https://raw.github.com/synergian/wagon-git/releases</url>
+	    </pluginRepository>
+	</pluginRepositories>
     
     <build>
         <plugins>
@@ -67,6 +73,13 @@
                 <version>2.7</version>
             </plugin>
         </plugins>
+        <extensions>
+            <extension>
+                <groupId>ar.com.synergian</groupId>
+                <artifactId>wagon-git</artifactId>
+                <version>0.2.2</version>
+            </extension>
+        </extensions>
     </build>
     
     <scm>
@@ -75,10 +88,10 @@
     </scm>
     
     <distributionManagement>
-        <repository>
-            <id>internal.repo</id>
-            <name>Internal repository</name>
-            <url>${internal.repo.path}</url>
-        </repository>
-    </distributionManagement>
+	    <repository>
+	        <id>github.repo</id>
+	        <name>GitHub repository for Maven projects</name>
+	        <url>git:releases://git@github.com:LuisLoureiro/mvn-repo.git</url>
+	  </repository>
+	</distributionManagement>
 </project>
